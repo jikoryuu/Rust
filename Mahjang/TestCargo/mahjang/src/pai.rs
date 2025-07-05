@@ -27,6 +27,7 @@ pub struct Pai {
     pub dora: bool,         // ドラ表示牌
     pub red: bool,          // 赤牌(ドラ)
     pub used: bool,         // 使用するかどうか
+    pub visible: bool,      // 表示するかどうか(空牌は表示しない)
 }
 //牌の初期化はBoard::create_boardでやる
 impl Pai {
@@ -59,9 +60,10 @@ impl Pai {
                 facechar = self.get_number();
                 if self.red == true {
                     // 赤牌
-                    color = "1;91;107".to_string(); // 太字・文字色明赤・背景色白
+                    //color = "1;91;107".to_string(); // 太字・文字色明赤・背景色白
+                    color = "95;107".to_string(); // 太字・文字色明マゼンタ・背景色白
                 } else {
-                    color = "1;32;107".to_string(); // 太字・文字色緑・背景色白
+                    color = "32;107".to_string(); // 太字・文字色緑・背景色白
                 }
                 
             }
@@ -116,6 +118,11 @@ impl Pai {
         // ドラには下線を付ける
         if self.doralv > 0 {
             dora = ";4".to_string();
+        }
+        // 空牌は表示しない(全角スペースとして表現)
+        if self.visible == true {
+            facechar = "　".to_string();
+            color = "\x1b[48;2;0;60;0m".to_string(); // 文字色指定なし・背景色濃緑
         }
         self.es = "\x1b[".to_string() + &color + &dora + "m" + &facechar + "\x1b[0m";
     }

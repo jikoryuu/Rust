@@ -1,0 +1,9 @@
+C:\Users\Public\Documents\VSCode\Rust\Mahjang\Test\inputkey\testtermion\target\debug\deps\derive_more_impl-1882b1571c98ff6d.dll: C:\Users\gngmp\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\derive_more-impl-2.0.1\src\lib.rs C:\Users\gngmp\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\derive_more-impl-2.0.1\src\utils.rs C:\Users\gngmp\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\derive_more-impl-2.0.1\src\is_variant.rs C:\Users\gngmp\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\derive_more-impl-2.0.1\src\../README.md C:\Users\gngmp\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\derive_more-impl-2.0.1\src\../doc/is_variant.md
+
+C:\Users\Public\Documents\VSCode\Rust\Mahjang\Test\inputkey\testtermion\target\debug\deps\derive_more_impl-1882b1571c98ff6d.d: C:\Users\gngmp\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\derive_more-impl-2.0.1\src\lib.rs C:\Users\gngmp\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\derive_more-impl-2.0.1\src\utils.rs C:\Users\gngmp\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\derive_more-impl-2.0.1\src\is_variant.rs C:\Users\gngmp\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\derive_more-impl-2.0.1\src\../README.md C:\Users\gngmp\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\derive_more-impl-2.0.1\src\../doc/is_variant.md
+
+C:\Users\gngmp\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\derive_more-impl-2.0.1\src\lib.rs:
+C:\Users\gngmp\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\derive_more-impl-2.0.1\src\utils.rs:
+C:\Users\gngmp\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\derive_more-impl-2.0.1\src\is_variant.rs:
+C:\Users\gngmp\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\derive_more-impl-2.0.1\src\../README.md:
+C:\Users\gngmp\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\derive_more-impl-2.0.1\src\../doc/is_variant.md:
