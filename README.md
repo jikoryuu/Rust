@@ -1,6 +1,7 @@
 # Rust
 
 # Rustでコンソールで遊べる麻雀ゲームを作る
+[GitHub jikoryuu Rust](https://github.com/jikoryuu/Rust)
 
 麻雀ゲームを作成するにあたってこのリポジトリも公開することにしました
 
