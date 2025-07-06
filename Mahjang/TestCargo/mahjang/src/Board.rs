@@ -1,3 +1,7 @@
+// 麻雀ゲームのルール設定
+// 麻雀ゲームの現状値の保存
+// 牌の定義と初期化
+
 use crate::pai::{Pai, Tileset, Tiletype};
 
 pub struct Board {
@@ -20,6 +24,7 @@ impl Board {
             settype: Tiletype::Suited, // 数字牌
             idx: 0,
             number: 0,
+            value: 0, // 数牌は1-9、字牌は0、花牌は-1
             doralv: 0,
             red: false,
             used: true,
@@ -62,6 +67,7 @@ impl Board {
                         p.settype = Tiletype::Suited; // 数字牌
                         p.idx = idx;
                         p.number = j;
+                        p.value= j + 1; // 数牌は1-9、字牌は0、花牌は-1
                         p.doralv = d;
                         p.red = r;
                         p.used = u;
@@ -89,6 +95,7 @@ impl Board {
                 p.settype = Tiletype::Honors; // 文字牌
                 p.idx = idx;
                 p.number = i;
+                p.value = 0; // 字牌は0
                 p.doralv = 0;
                 p.red = false;
                 p.used = true;
@@ -115,6 +122,7 @@ impl Board {
                 p.settype = Tiletype::Honors; // 文字牌
                 p.idx = idx;
                 p.number = i;
+                p.value = 0; // 字牌は0
                 p.doralv = 0;
                 p.red = false;
                 p.used = true;
@@ -141,6 +149,7 @@ impl Board {
                 p.settype = Tiletype::Bonus;  // 花牌
                 p.idx = idx;
                 p.number = i;
+                p.value = -1; // 花牌は-1
                 p.doralv = 0;
                 p.red = false;
                 p.used = true;
@@ -166,6 +175,7 @@ impl Board {
                 p.settype = Tiletype::Bonus;  // 花牌
                 p.idx = idx;
                 p.number = i;
+                p.value = -1; // 花牌は-1
                 p.doralv = 0;
                 p.red = false;
                 p.used = true;

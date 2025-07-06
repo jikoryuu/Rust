@@ -1,3 +1,5 @@
+// 具体的な牌の定義と初期化はBoard::create_boardで行う
+
 #[derive(PartialEq, Clone)]
 pub enum Tileset {
     Dots,       // 筒子（ピンズ）
@@ -23,6 +25,7 @@ pub struct Pai {
     pub settype: Tiletype,  // 牌の属種[0-2]
     pub idx: u8,            // 牌の番号(シリアルナンバー)[0-143]
     pub number: u8,         // 牌の表示番号[0-8]/[0-3]/[0-2]
+    pub value: isize,       // 牌の評価値(数牌 1-9,字牌 0,花牌 -1)
     pub doralv: u8,         // ドラの重複度
     pub dora: bool,         // ドラ表示牌
     pub red: bool,          // 赤牌(ドラ)
